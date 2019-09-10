@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>National Parks</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    <form action="submit">
+        <label for="state">State</label>
+        <input type="text" name="state" class="state" placeholder="your state(s)" required>
+        <label for="maxParks">Number Of Parks</label>
+        <input type="number" name="maxParks" class='maxParks' placeholder="10" required>
+        <input type="button" value="Get Parks" class="submitButton">
+    </form>
+    <h2 class='errorMessage'></h2>
+    <section class="hidden">
+        <h3>Search Results</h3>
+        <div class="displayedResults"></div>
+    </section>
+
+
+    
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="scripts.js"></script>     
+</body>
+</html>
